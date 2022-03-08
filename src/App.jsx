@@ -1,10 +1,12 @@
+import React from 'react'
 import './App.css'
+import VideoPlayer from './componets/videoPlayer/index.jsx'
 
 function App () {
   return (
     <div className='App'>
       <main>
-        Clone de Tiktok
+        <VideoPlayer />
       </main>
     </div>
   )
