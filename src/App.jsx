@@ -1,12 +1,11 @@
-import React from 'react'
 import './App.css'
-import VideoPlayer from './componets/videoPlayer/index.jsx'
+import FeedVideos from './componets/feedVideos/index.jsx'
 
 function App () {
   return (
     <div className='App'>
       <main>
-        <VideoPlayer />
+        <FeedVideos />
       </main>
     </div>
   )
